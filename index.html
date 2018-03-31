@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet/less" href="css/index.less">
+    <script src="js/less-2.5.3.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script>
+        window.addEventListener('resize',computedSize);
+        function computedSize() {
+            var winw =  document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = winw/640*100+"px";
+        }
+        computedSize();
+    </script>
+
+
+
+
+</head>
+<body>
+
+<div class="swiper-container">
+    <audio src="music/we.mp3" preload="none" autoplay id="musicAudio"></audio>
+    <div class="mus">
+        <img src="img/music.svg" alt="" class=" seclect"  id="mus">
+    </div>
+    <div class="top">
+        <img src="img/32-.png" alt="">
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide one">
+            <span>
+                <!--<div class="rotate"></div>-->
+                <img src="img/pig.jpg" alt=" " class="ani" swiper-animate-effect="rotateIn"  swiper-animate-duration="2s">
+                <p class="ani" swiper-animate-effect="rotateIn" swiper-animate-delay="2s">个人简历</p>
+            </span>
+            <div class="news ani" swiper-animate-effect="bounceInRight" swiper-animate-delay="2s">
+                <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-delay="2.5s">基本信息</p>
+            </div>
+            <div class="name">
+                <p class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-delay="3s" swiper-animate-duration="2s">姓名：耿可爱</p>
+                <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-delay="3.5s" swiper-animate-duration="2s">性别：boy</p>
+                <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-delay="4s" swiper-animate-duration="2s">出生年月：1996.07.01</p>
+                <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-delay="4.5s" swiper-animate-duration="2s">毕业院校：五道口职业技术学院</p>
+                <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-delay="5s" swiper-animate-duration="2s">特长：腿</p>
+                <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-delay="5.5s" swiper-animate-duration="2s">爱好：滑板和代码</p>
+            </div>
+        </div>
+        <div class="swiper-slide two">
+            <div class="me">
+                <img src="img/pig.jpg" alt="" class="ani" swiper-animate-effect="rotateIn" swiper-animate-delay="1.5s"  swiper-animate-duration="2s">
+            </div>
+            <div class="line ani" swiper-animate-effect="rollIn" swiper-animate-delay="2.5s">
+                <div class="biao"></div>
+                <!--<i></i>-->
+                <!--<i></i>-->
+                <!--<i></i>-->
+                <!--<i></i>-->
+                <!--<i></i>-->
+                <!--<i></i>-->
+                <!--<i></i>-->
+                <!--<i></i>-->
+            </div>
+            <span class="can ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s">主要技能</span>
+            <div class="ican">
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">css</p>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">html</p>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">javascript</p>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">jquery</p>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">node</p>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">vue框架</p>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">react</p>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="3s" swiper-animate-duration="1.5s">全栈开发</p>
+            </div>
+        </div>
+        <div class="swiper-slide three">
+            <span class="ani work" swiper-animate-effect="slideInDown"  swiper-animate-duration="1.5s">工作经历</span>
+            <div class="workness">
+                <div class="ali">
+                    <h4 class="ani" swiper-animate-effect="rollIn" swiper-animate-delay="1s" swiper-animate-duration="1.5s">2014.05.10-2016.06.30</h4>
+                    <span class="ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-delay="1.5s" swiper-animate-duration="1.5s">担任职务：阿里高级前端开发攻城狮</span>
+                    <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="2s" swiper-animate-duration="1.5s">工作描述：Web应用的设计与开发；Javascript数据处理；复杂Ajax交互开发；Web接口设计与开发；Html/css代码质量控制。</p>
+                </div>
+                <div class="tengxun">
+                    <h4 class="ani" swiper-animate-effect="bounceIn" swiper-animate-delay="2.5s" swiper-animate-duration="1.5s">2016.07.01-2018.02.30</h4>
+                    <span class="ani" swiper-animate-effect="bounceInUp" swiper-animate-delay="3s" swiper-animate-duration="1.5s">担任职务：腾讯高级前端开发攻城狮</span>
+                    <p class="ani" swiper-animate-effect="bounceInDown" swiper-animate-delay="3.5s" swiper-animate-duration="1.5s">工作描述：Web应用的设计与开发；Javascript数据处理；复杂Ajax交互开发；Web接口设计与开发；Html/css代码质量控制。</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide four">
+            <span class="ani work" swiper-animate-effect="slideInDown"  swiper-animate-duration="1.5s">满意作品</span>
+            <div class="a mine1 ani" swiper-animate-effect="bounceInDown" swiper-animate-delay="1.5s" swiper-animate-duration="1.5s"></div>
+            <div class="a mine2 ani" swiper-animate-effect="bounceInDown" swiper-animate-delay="2s" swiper-animate-duration="1.5s"></div>
+            <div class="a mine3 ani" swiper-animate-effect="bounceInLeft" swiper-animate-delay="2.5s" swiper-animate-duration="1.5s"></div>
+            <div class="a mine4 ani" swiper-animate-effect="bounceInRight" swiper-animate-delay="3s" swiper-animate-duration="1.5s"></div>
+            <div class="a mine5 ani" swiper-animate-effect=" bounceInUp" swiper-animate-delay="3.5s" swiper-animate-duration="1.5s"></div>
+            <div class="a mine6 ani" swiper-animate-effect=" bounceInUp" swiper-animate-delay="4s" swiper-animate-duration="1.5s"></div>
+        </div>
+        <div class="swiper-slide five">
+            <h4 class="ani h4" swiper-animate-effect=" bounceInDown" swiper-animate-duration="1.5s">期待您的回复</h4>
+            <div class="box ani" swiper-animate-effect=" flip" swiper-animate-delay="1s" swiper-animate-duration="1.5s">
+                <img src="img/ma.jpg" alt="">
+            </div>
+            <div class="callme">
+                <h4 class="ani"swiper-animate-effect=" bounceInUp" swiper-animate-delay="2s" swiper-animate-duration="1.5s">微信：66666</h4>
+                <span class="ani"swiper-animate-effect="  bounceInLeft" swiper-animate-delay="3s" swiper-animate-duration="1.5s">手机：1589996666</span>
+                <h5 class="ani"swiper-animate-effect=" zoomIn" swiper-animate-delay="3.5s" swiper-animate-duration="1.5s">邮箱：@qq666.com</h5>
+                <h5 class="ani"swiper-animate-effect=" zoomIn" swiper-animate-delay="4s" swiper-animate-duration="1.5s">地址：北京东城区</h5>
+            </div>
+        </div>
+    </div>
+     <!--如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<script src="js/swiper.min.js"></script>
+<!--<script src="js/jquery-1.11.3.js"></script>-->
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
